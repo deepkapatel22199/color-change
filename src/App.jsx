@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <div className="app" style={{ backgroundColor: bgColor }}>
-        <h1>Background Color Change</h1>
+        <h1 class="text-3xl font-bold underline">Background Color Change</h1>
         <button onClick={changeBackgroundColor}>Change Me</button>
       </div>
     </>
